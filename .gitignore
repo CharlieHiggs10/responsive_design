@@ -54,3 +54,4 @@ macos/build/
 windows/build/
 ios/Flutter/
 ios/Runner.xcodeproj/project.xcworkplace/ 
+lib/firebase_options.dart       # do not commit API KEYS
