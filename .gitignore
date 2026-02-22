@@ -54,4 +54,11 @@ macos/build/
 windows/build/
 ios/Flutter/
 ios/Runner.xcodeproj/project.xcworkplace/ 
-lib/firebase_options.dart       # do not commit API KEYS
+
+# Firebase configuration files containing keys
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+lib/firebase_options.dart
+
+# Sensitive environment variables
+.env
